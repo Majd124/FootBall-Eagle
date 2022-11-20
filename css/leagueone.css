@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    scrollbar-color: black;
+}
+
+    
+
+
+header{
+    height: 510px;
+    width: 100%;
+    background-image: url(./CupsBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    position: absolute;
+    top: 0;
+    border: 2px rgb(168, 121, 121) solid;
+    width: 100%;
+    background-color: #10141d;
+}
+a{
+    font-size: large;
+}
+ul{
+list-style: none;
+}
+ul li{
+    float: left;
+    width: 250px;
+    height: 40px;
+    background-color: #10141d;
+    opacity: .9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(137, 178, 255);
+    display: block;
+    font-family: serif;   
+
+}
+ul li a:hover{
+    background-color: #756986;
+    color: rgb(137, 178, 255);
+    transition-duration: 0.5s;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
+
+body{
+    background-color: #A8A4CE;
+}
+h1{
+ text-align: center;
+ font-family: serif;   
+}
+marquee{
+    background-color: #002aff8e;
+    border: solid 2px black;
+    color: lightsalmon;
+    font-family: cursive;
+}
+table{
+    width: 100%;
+}
+.leagueone{
+    background: linear-gradient(to right, rgb(22, 5, 99),rgb(65, 12, 12));
+    color: #fbff00;
+}
+img{
+    width: 50px;
+    height:50px;
+    float: left;
+    transition-duration: 1s;
+}
+img:hover{
+    width: 55px;
+    height: 65px;
+}
+td{
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 23px;
+
+}
+th{
+    border: 3px solid rgb(116, 80, 80);
+    text-align: center;
+    font-size: 33px;
+
+}
+.scrorrers{
+    position: absolute;
+    top: 195%;
+    left: 25%;
+    width: 50%;
+    color: #0011fd;
+    background-image: url(./soccerball_web.jpg);
+    background-size: cover;
+    background-position: 10%;
+    font: bolder;
+    border: black 1px solid;
+}
+.scrorrers:hover{
+    background-image: none;
+}
+footer {
+    position: absolute;
+    top: 240%;
+    width: 100%;
+    background-color: #C8B6E2;
+    padding: 15px;
+
+  }
+  #footerup{
+    text-decoration: none;
+    color: #A8A4CE;
+    font-size: 32px;
+    width: fit-content;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 1px;
+    background-color: #10141d;
+    border-radius: 15px;
+    position: relative;
+    transition-duration: 1s;
+    left: 30%;
+}
+#footerup:hover{
+
+    text-decoration: none;
+    color: #1a163d;
+    font-size: 32px;
+    width: fit-content;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 1px;
+    background-color: #6a8bda;
+    border-radius: 15px;
+    position: relative;
+    left: 30.5%;
+}

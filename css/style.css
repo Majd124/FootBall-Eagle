@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 510px;
+    width: 100%;
+    background-image: url(./CupsBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    position: absolute;
+    top: 0;
+    border: 2px rgb(168, 121, 121) solid;
+    width: 100%;
+    background-color: #10141d;
+
+}
+a{
+    font-size: large;
+}
+ul{
+list-style: none;
+}
+ul li{
+    float: left;
+    width: 250px;
+    height: 40px;
+    background-color: #10141d;
+    opacity: .9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(137, 178, 255);
+    display: block;
+    font-family: serif;   
+
+}
+ul li a:hover{
+    background-color: #756986;
+    color: rgb(137, 178, 255);
+    transition-duration: 0.5s;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
+
+body{
+    background-color: #A8A4CE;
+}
+h1{
+ text-align: center;
+ font-family: serif;   
+}
+marquee{
+    background-color: #002aff8e;
+    border: solid 2px black;
+    color: lightsalmon;
+    font-family: cursive;
+}
+.artbtns{
+    display: block;
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+    width: 284px;
+    height: 104px;
+}
+.divbtns{
+position: absolute;
+bottom: -20px;
+right: 710px;
+display:block;
+}
+
+#btn_nxt_mtch{
+    font-family: serif;
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 24px;
+    width: 484px;
+    height: 104px;
+    background-color: #D9D9D9;
+    transition-duration: 0.35s;
+    box-shadow: 8px 16px 0 rgb(48, 46, 46);
+
+}
+#btn_nxt_mtch_link{
+    text-decoration: none;
+    padding:25px;
+}
+#btn_watch{
+    font-family: serif;
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 24px;
+    width: 375px;
+    height: 104px;
+    background-color: #D9D9D9;
+    transition-duration: 0.35s;
+    box-shadow: 8px 16px 0 rgb(48, 46, 46);
+
+}
+#btn_watch_link{
+    text-decoration: none;
+    padding: 25px;
+}
+.divwatch{
+position: absolute;
+bottom: -20px;
+right: 330px;
+display:block;
+}
+.divbtn{
+    position: absolute;
+    bottom: -20px;
+    right: -160px;
+    display:block;
+    
+}
+#qtr22_link{
+    text-decoration: none;
+    padding: 25px;
+}
+#qtr22{
+    font-family: serif;
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 24px;
+    width: 484px;
+    height: 104px;
+    background-color: #D9D9D9;
+    box-shadow: 8px 16px 0 rgb(48, 46, 46);
+
+    transition-duration: 0.35s;
+}
+#qtr22:hover{
+height: 125px;
+border-radius: 44px;
+background-color: #495C83;
+}
+#btn_watch:hover{
+    height: 125px;
+    border-radius: 44px;
+background-color: #495C83;
+
+}
+#btn_nxt_mtch:hover{
+        height: 125px;
+        border-radius: 44px;
+        background-color: #495C83;
+
+    }
+    .artgols{
+        display: block;
+
+    }
+.vidrmvscl{
+    display: block;
+    width: 600px;
+    position: absolute;
+    left: 320px;
+    top: 880px;
+    margin: 15px;
+}
+.realmadrid{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition-duration: 2s;
+    border: 5px solid rgb(44, 20, 17);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.realmadrid:hover{
+    box-shadow: 18px 10px 13px black;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+h3{
+    text-align: center;
+    margin: 14px;
+
+}
+.vidmcvssv{
+    display: block;
+    width: 600px;
+    position: absolute;
+    left: 980px;
+    top: 880px;
+    margin: 15px;
+
+}
+.mancity{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition-duration: 2s;
+    border: 5px solid rgb(44, 20, 17);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.mancity:hover{
+    box-shadow: 18px 10px 13px black;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.vidBmvsbr{
+    display: block;
+    width: 600px;
+    position: absolute;
+    left: 320px;
+    top: 1295px;
+    margin: 15px;
+
+}
+.jordan{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition-duration: 2s;
+    border: 5px solid rgb(44, 20, 17);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.jordan:hover{
+    box-shadow: 18px 10px 13px black;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.vidprvsju{
+    display: block;
+    width: 600px;
+    position: absolute;
+    left: 980px;
+    top: 1295px;
+    margin: 15px;
+}
+    .Juve{
+        display: block;
+        width: 100%;
+        height: 100%;
+        transition-duration: 2s;
+        border: 5px solid rgb(44, 20, 17);
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+    .Juve:hover{
+        box-shadow: 18px 10px 13px black;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .haalanddiv{
+        display: block;
+        width: 750px;
+        position: absolute;
+        left: 550px;
+        top: 1705px;
+        margin: 15px;
+        transition-duration: 1s;
+    }
+    .bestgoal{
+        border-bottom: #1a163d 5px solid ;
+        border-right: #1a163d 5px solid ;
+        border-left: #1a163d 5px solid ;
+        color: darkcyan;
+        padding: 1px;
+    }
+    .haaland{
+        display: block;
+        width: 100%;
+        height: 100%;
+        transition-duration: 1s;
+        opacity: 5%;
+
+    }
+    .haaland:hover{
+        border-top-right-radius: 45px;
+        border-top-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-bottom-left-radius: 45px;
+        width: 100%;
+        opacity: 100%;
+    }
+    .haalanddiv:hover{
+        width: 900px;
+        top: 1600px;
+        left: 450px;
+    }
+aside{
+    background-color: #7A86B6;
+    width: 264px;
+    height: 689px;
+    margin: 25px;
+    border-radius: 17px;
+    display: inline-block;
+}
+.news{
+    text-align: center;
+    border-bottom: 1px black solid;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 17px;
+}
+.news1{
+    background-color: rgba(255, 0, 0, 0.425);
+    color: white;
+    margin-top: 2px;
+    margin: 5px;
+    border-radius: 17px;
+}
+.news2{
+    background-color: rgba(255, 0, 0, 0.425);
+    color: white;
+    margin: 5px;
+    margin-top: 3px;
+    border-radius: 17px;
+}
+.news3{
+    background-color: rgba(13, 75, 13, 0.425);
+    color: white;
+    margin: 5px;
+    margin-top: 3px;
+    border-radius: 17px;
+}
+.news4{
+    background: none;
+    border: none;
+    margin: 5px;
+    margin-top: 3px;
+}
+.abouttheteam{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 17px;
+}
+.Abouttheplayers{
+    text-align: center;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 17px;
+}
+.news5{
+    background-color: rgba(47, 0, 255, 0.308);
+    color: white;
+    margin: 5px;
+    margin-top: 5px;
+    border-radius: 17px;
+}
+
+footer {
+    position: absolute;
+    top: 250%;
+    width: 100%;
+    background-color: #C8B6E2;
+  }
+  #footerup{
+    text-decoration: none;
+    color: #A8A4CE;
+    font-size: 32px;
+    width: fit-content;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 1px;
+    background-color: #10141d;
+    border-radius: 15px;
+    position: relative;
+    transition-duration: 1s;
+    left: 30%;
+    top: 20px;
+}
+#footerup:hover{
+
+    text-decoration: none;
+    color: #1a163d;
+    font-size: 32px;
+    width: fit-content;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 1px;
+    background-color: #6a8bda;
+    border-radius: 15px;
+    position: relative;
+    left: 30.5%;
+}
